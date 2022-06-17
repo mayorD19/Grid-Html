@@ -1,0 +1,97 @@
+body
+{
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+}
+.parent-container{
+    display: flex;
+    justify-content: center;
+}
+.first-child{
+    height: 370px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3%;
+    border-radius: 7px;
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 70px;
+}
+.img-div{
+    margin-top: 16px;
+
+}
+.text-div{
+    margin-bottom: 70px;
+    font-size: 15px;
+    color: #fff;
+}
+.text-div p{
+    opacity: 0.7;
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: #fff;
+    font-size: 33px;
+}
+.button-div button{
+    border-radius: 25px;
+    padding: 9px 20px;
+    color: hsl(31, 77%, 52%);
+    background-color: #fff;
+    border: 0;
+}
+.button-div{
+    margin-top: 15px;  
+}
+.second-btn button{
+    color: hsl(184, 100%, 22%);
+}
+.third-btn button{
+    color:hsl(179, 100%, 13%)
+}
+button:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.second-child{
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0;
+}
+.third-child{
+    background-color: hsl(179, 100%, 13%);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.locate{
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    padding-top: 1px;
+    margin-top: 48px;
+}
+.locate a:hover{
+    color: crimson;
+}
+@media (max-width:700px){
+    .parent-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .first-child{
+        width: 65%;
+        margin-top: 11%;
+    }
+
+}
